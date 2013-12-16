@@ -1,0 +1,137 @@
+#HomeContent {
+	width:940px;
+	margin-top:10px;
+	margin-left:10px;
+}
+
+
+/*				Button Styling					*/
+.Btn {
+	text-align: center;
+	font-size: 20px;
+	font-family: helvetica, arial, sans-serif;
+	color: #777777;
+	text-decoration:none;
+	
+	background: linear-gradient(#FFFFFF, #EDEDED);
+	border-radius: 7px;
+}
+
+.Btn:hover {
+	background: linear-gradient(#FFFFFF, #A0A0A0)
+}
+
+span{
+	display: inline-block;
+    vertical-align: middle;
+}
+
+/*				Current Gantt Chart				*/
+#ProgressContentDiv{
+	position:relative;
+	width:940px;
+}
+
+#CurrentProgress {
+	width:900px;
+	margin-left:10px;
+	padding:10px;
+	
+	font-size: 20px;
+	font-family: helvetica, arial, sans-serif;	
+}
+
+#IMGContainer {
+	padding-left:10px;
+}
+
+#CurrentImg {
+	width: 880px;
+}
+
+
+/*			Accordion List and Content			*/
+h3 {
+	width: 900px;
+	height: 30px;
+	margin-left:10px;
+	padding-left:10px;
+	border-radius: 7px;
+	background-color: #EDEDED;
+	
+	font-family: helvetica, arial, sans-serif;
+	
+	cursor: pointer;
+	cursor: hand;
+}
+
+#ProgressList {
+	position:relative;
+	width: 940px;
+	right:5px;
+	
+	//border:1px solid #bbb;
+}
+
+#ListDiv {
+	position:relative;
+	float: left;
+	height: 200px;
+	width: 300px;
+	margin-top:1px;
+	margin-left:10px;	
+}
+
+#ListDate {
+	position:relative;
+	height:20px;
+	
+	font-size: 20px;
+	font-family: helvetica, arial, sans-serif;
+	text-align: center;
+}
+
+#ListImg {
+	position:relative;
+	width:200px;
+	top:10px;
+	left:50px;
+	
+	cursor: pointer;
+	cursor: hand;
+}
+
+
+/*			Image Pop-up						*/
+#ImgPopUp {
+	z-index: 10;
+	position:fixed;
+	text-align: justify;
+	top:2%;
+	width:900px;
+	
+	background-color: #FFFFFF;
+	border:1px solid #000000;
+	box-shadow: 0px 0px 20px 10px #606060;
+	
+	display:none;
+}
+
+#CloseBtn {
+	position:absolute;
+	top:-10px;
+	right:-10px;
+	z-index: 11;
+	
+	cursor: pointer;
+	cursor: hand;
+}
+
+#OBtn {
+	position: absolute;
+	
+	width: 150px;
+	height: 40px;
+	bottom:10px;
+	right:10px;
+}

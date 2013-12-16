@@ -1,0 +1,46 @@
+<html>
+
+<link rel="stylesheet" type="text/css" href="CSS/homestyle.css">
+
+<script type='text/javascript' src='JS/jQuery.js'></script>
+<script type='text/javascript' src='jquery-ui-1.10.3/ui/jquery-ui.js'></script>
+<script type='text/javascript' src='ProgressImgs/ProgressList.js'></script>
+<script type='text/javascript' src='JS/homeScript.js'></script>
+	
+	<div id='HomeContent'>
+		
+		<div id='ImgPopUp'>
+			<div id='CloseBtn' onclick='closePopUp();'>
+				<img style='box-shadow:0px 0px 5px 1px #606060; border-radius:30px;' src='Images/Icons/Close Icon.png'></img>
+			</div>
+			<div id='MainImgDiv'>
+				<img id='MainImg' style=' position:absolute; width:880px; left:10px; top:10px;'></img>
+			</div>
+			<a id='OriginalSourceLink' >
+				<div id='OBtn' class='Btn'>
+					<span style='line-height: 40px;'>Original Image</span>
+				</div>
+			</a>
+		</div>
+		
+		<div id='ProgressContentDiv'>
+			
+			<div id='CurrentProgress'>
+				<p>Current Progress</p>
+				<div id="IMGContainer"></div>
+			</div>
+			
+			<div id='ProgressHistory'>
+				<h3 style='line-height: 30px;'>Show Progress History</h3>
+				<div id='ProgressList'>
+					
+				</div>
+			</div>
+			
+		</div>
+		
+		
+	</div>
+
+
+</html>
