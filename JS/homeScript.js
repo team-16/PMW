@@ -6,12 +6,13 @@ $(document).ready(function() {
 		
 		});
 		
-		createList();
+		mainImg() 
+		createHistory();
 		
 });
 
-function createList() {
-
+function mainImg() {
+	
 	var currentDate = ProgressIMG[0];
 	var currentImgHTML = "<img id='CurrentImg' src='ProgressImgs/Originals/" + currentDate + "'>";
 	
@@ -21,6 +22,12 @@ function createList() {
 	$("#IMGContainer").append(currentImgHTML);
 	$("#CurrentProgress").append(currentDateHTML);
 	
+	document.getElementById("MainOriginalSourceLink").href = "ProgressImgs/Originals/" + currentDate + ".png";
+	document.getElementById("MainOriginalSourceLink").target = "_blank";
+	
+}
+
+function createHistory() {
 	
 	var listHTML = "";
 	var listDate = "";
