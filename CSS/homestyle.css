@@ -1,7 +1,7 @@
 #HomeContent {
 	width:940px;
 	margin-top:10px;
-	margin-left:10px;
+	margin-left:10px;	
 }
 
 
@@ -39,6 +39,12 @@ span{
 	
 	font-size: 20px;
 	font-family: helvetica, arial, sans-serif;	
+}
+
+#MainOriginalBtnDiv {
+	position:absolute;
+	top:20px;
+	right:10px;
 }
 
 #IMGContainer {

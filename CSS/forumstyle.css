@@ -1,0 +1,44 @@
+#Btn {
+	position: absolute;
+	top:10px;
+	right:0px;
+	height:40px;
+	width:240px;
+	
+	line-height:40px;
+	text-align: center;
+	font-size: 20px;
+	font-family: helvetica, arial, sans-serif;
+	color: #777777;
+	text-decoration:none;
+	
+	background: linear-gradient(#EDEDED, #A0A0A0);
+	border-radius: 7px;
+}
+
+#BtnLink {
+	text-decoration:none;
+}
+
+#Btn:hover {
+	color: #FFFFFF;
+	background: linear-gradient(#A0A0A0, #707070)
+}
+
+span{
+	display: inline-block;
+    vertical-align: middle;
+}
+
+#FrameDiv {
+	position:relative;
+	top:60px;
+}
+
+#Forum {
+	position:relative;
+	height:1000px;
+	width:980px;
+	left:-10px;
+	
+}
