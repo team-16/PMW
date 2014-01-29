@@ -13,6 +13,9 @@
 	color: #777777;
 	text-decoration:none;
 	
+	cursor: pointer;
+	cursor: hand;
+	
 	background: linear-gradient(#FFFFFF, #EDEDED);
 	border-radius: 7px;
 }

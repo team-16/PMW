@@ -1,0 +1,4 @@
+AuthType Basic  
+AuthName "Restricted Area: Please enter team account username and password"  
+AuthUserFile /disks/diskh/teams/team16/html-739/.htpasswd 
+require valid-user
